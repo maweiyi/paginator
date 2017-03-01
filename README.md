@@ -1,7 +1,7 @@
 #### Paginator
 Paginator is a pagination plugins, It is easy to use, and nice looking appearance.
 
-![]()
+![](https://github.com/maweiyi/paginator/blob/master/paginator.png)
 
 ##### Example
 
