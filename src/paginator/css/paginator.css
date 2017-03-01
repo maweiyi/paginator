@@ -1,0 +1,99 @@
+body {
+    font: 13px/22px Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;
+    color: #2d2d2d
+}
+
+
+.paginator {
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: #2d2d2d
+}
+
+
+#paginator .previous {
+    background: url(../img/icon-common.png) -70px -300px no-repeat;
+    color: #7d7d7d;
+    display: inline-block;
+    height: 25px;
+    line-height: 22px;
+    width: 64px;
+    text-indent: 4px;
+    margin-right: 3px
+}
+
+#paginator .previous:hover {
+    color: #FFF;
+    background-position: -70px -330px
+}
+
+#paginator .previous:active {
+    color: #FFF;
+    background-position: -70px -330px
+}
+
+#paginator .previous.disabled:hover {
+    background-position: -70px -300px
+}
+
+#paginator .next {
+    background: url(../img/icon-common.png) -70px -360px no-repeat;
+    color: #7d7d7d;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 64px;
+    text-indent: -6px
+}
+
+#paginator .next:hover {
+    color: #FFF;
+    background-position: -70px -390px
+}
+
+#paginator .next:active {
+    color: #FFF;
+    background-position: -70px -390px
+}
+
+#paginator .next.disabled:hover {
+    background-position: -70px -360px
+}
+
+#paginator .page {
+    background-color: #f2f2f2;
+    color: #7d7d7d;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 3px;
+    height: 25px;
+    line-height: 25px;
+    min-width: 26px
+}
+
+#paginator .page:hover {
+    background-color: #dd5862;
+    color: #FFF
+}
+
+#paginator .actived {
+    background-color: #dd5862;
+    color: #FFF
+}
+
+#paginator .disabled {
+    color: #D9D9D9;
+    cursor: default
+}
+
+#paginator .disabled:hover {
+    color: #d9d9d9
+}
+
+#paginator .break {
+    color: #7d7d7d;
+    margin-right: 4px
+}
